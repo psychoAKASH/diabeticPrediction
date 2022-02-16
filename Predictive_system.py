@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
 # loading the saved model
-loaded_model = pickle.load(open ('E:/My work/work/Diabetes Pridiction/trained_diabetic_model.sav','rb'))
+loaded_model = pickle.load(open ('E:/My work/work/Diabetes/trained_diabetic_model.sav','rb'))
 input_data = (4,110,92,0,0,37.6,0.191,30)
 # transforming this input list into numpy array
 input_data_as_numpy_array = np.asarray(input_data)
