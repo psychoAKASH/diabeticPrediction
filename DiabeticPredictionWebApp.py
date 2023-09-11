@@ -5,7 +5,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # loading the saved model
-loaded_model = pickle.load(open ('trained_diabetic_model.sav','rb'))
+loaded_model = pickle.load(open ('./trained_diabetic_model.sav','rb'))
 
 # creating a function for Prediction
 def diabetes_prediction(input_data):
